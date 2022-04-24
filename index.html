@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="*-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Формулы теории вероятности</title>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <h1>Формулы теории вероятности</h1>
+    </div>
+</div>
+    <div class="container">
+    <div class="buttons-container">
+    <button class="permutation-with-repetition">
+        Перестановки с повторениями
+    </button>
+    <button class="permutations-without-repetitions">
+        Перестановки без повторений
+    </button>
+    <button class="combinations-with-repetitions">
+        Сочетания с повторениями
+    </button>
+</div>
+</div>
+<div class="container">
+<div class="calculator">
+    <div class="calculator-permutation-with-repetitions">
+    <p>n!=1*1*…*(n-1)*n </br>
+        5!=1*2*3*4*5=120</p>
+    <label for="number-for-permutations">Число n</label>
+    <input type="text" id="number-n" >
+    <button class="btn-permutation-with-repetitions">
+        рассчитать
+    </button>
+    <p id ="result">Результат</p>
+</div>
+<div class="calculator-permutations-without-repetitions">
+    <img src="assets/img/placements_1.png" alt="формула перестановок без повторений">
+    <label for="number-for-repetitions">Число n, Число k</label>
+    <input type="text" id="number-n-second" >
+    <input type="text" id="number-k" >
+    <button class="btn-permutation-without-repetitions">
+        рассчитать
+    </button>
+    <p id ="result-2">Результат</p>
+</div>
+<div class="calculator-combinations-with-repetitions">
+    <img src="/assets/img/combinations_1.png" alt="">
+    <label for="number-for-repetitions">Число n, Число k</label>
+    <input type="text" id="number-n-third"  >
+    <input type="text" id="number-k-second" >
+    <button class="btn-combinations-with-repetitions">
+        рассчитать
+    </button>
+    <p id ="result-3">Результат</p>
+</div>
+</div>
+</div>
+</body>
+<script src = "script.js"></script>
+</html>
